@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_select_date"
+        android:title="Select Date"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_download_report"
+        android:title="@string/download_bookings_report"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_clear_history"
+        android:title="@string/clear_history"
+        app:showAsAction="ifRoom" />
+</menu>

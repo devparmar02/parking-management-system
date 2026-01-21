@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_slot"
+        android:title="Add Slot"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete_slot"
+        android:title="Delete Slot"
+        app:showAsAction="ifRoom" />
+</menu>

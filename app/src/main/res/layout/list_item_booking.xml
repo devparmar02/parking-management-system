@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_dark"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvBookingVehicleNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle: KA-01-AB-1234"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBookingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Owner: John Doe"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvBookingEntryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Entry: 10:00 AM"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvBookingExitTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Exit: 12:00 PM"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvBookingRevenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Revenue: ₹40"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvBookingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Status: Completed"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

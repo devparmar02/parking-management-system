@@ -1,0 +1,10 @@
+<resources>
+    <color name="blue_primary">#0F57B7</color>
+    <color name="blue_dark">#0B4E9A</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_available">#28C940</color>
+    <color name="red_occupied">#E53935</color>
+    <color name="gray_input">#E6E6E6</color>
+    <color name="black">#000000</color>
+    <color name="yellow_maintenance">#FFC107</color>
+</resources>

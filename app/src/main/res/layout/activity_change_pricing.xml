@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_primary"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Two Wheeler -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two Wheeler (Per hour + Per day)"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etTwoWheelerHourly"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Current hourly price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/etTwoWheelerDaily"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Current daily price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <!-- LMV -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="LMV (Per hour + Per day)"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etLmvHourly"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Current hourly price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/etLmvDaily"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Current daily price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <!-- HMV -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="HMV (Per hour + Per day)"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etHmvHourly"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Current hourly price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/etHmvDaily"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Current daily price"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="@android:color/black" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@android:color/white"
+                android:text="Edit"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:backgroundTint="@android:color/white"
+                android:text="Save"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
